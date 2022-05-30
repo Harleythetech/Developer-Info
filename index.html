@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="Resources/Style/mobstyle.css">
     <link rel="stylesheet" href="Resources/Style/tabstyle.css">
     <link rel="stylesheet" href="Resources/script-pc-detection/simple-notify.min.css">
-    <link rel="icon" type="image/x-icon" href="Resources/devsinfo.ico" />
+    <link rel="icon" type="image/x-icon" href="Resources/devsinfo.ico">
+    <script src="https://kit.fontawesome.com/687fc4155e.js" crossorigin="anonymous"></script>
 </head>
 <script type="text/javascript" src="Resources/script-pc-detection/index.js"></script>
 <script src="Resources/script-pc-detection/simple-notify.min.js"></script>
@@ -19,13 +20,29 @@
 <body onload="ConsoleCheck()">
     <header>
         <nav>
-            <a class="shite" href="index.html">
-                <H3 class="title">Harleythetech's Dev Info</H3>
+            <a href="index.html">
+                <ul class="top">
+                    <i class="fa-solid fa-terminal" id="code"></i>
+                    <H3 class="title">Harleythetech's Dev Info</H3>
+                </ul>
             </a>
         </nav>
         <nav>
             <ul class="nav_bar">
-                <li><a href="about.html">Contact</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <nav>
+            <ul class="nav_barsocial">
+                <span class="Soc_Follow">FOLLOW ME ON:</span>
+                <div class="nav_gap"></div>
+                <a href="https://facebook.com/Harleythetech"><i class="fa-brands fa-facebook-square fa-xl fa-inverse" id="facebook"></i></a>
+                <div class="nav_gap"></div>
+                <a href="https://twitter.com/Harleythetech"><i class="fa-brands fa-twitter-square fa-xl fa-inverse" id="twitter"></i></a>
+                <div class="nav_gap"></div>
+                <a href="https://Github.com/Harleythetech"><i class="fa-brands fa-github-square fa-xl fa-inverse" id="Github"></i></a>
             </ul>
         </nav>
     </header>
@@ -34,45 +51,70 @@
         <div class="backgroundcap"></div>
         <div id="creator__image">
             <div>
-                <img class="creator__image" src="Resources/Logo.jpg" alt="@Harleythetech">
+                <div class="sat"><i class="fa-solid fa-satellite fa-2xl fa-inverse" class="sat"></i></div>
+                <img class="creator__image" src="Resources/user3.jpg" alt="@Harleythetech">
             </div>
             <div class="Name">
                 <h1 class="name">Vincent Harley R. Jovellano</h1>
                 <h3 class="namev2">@Harleythetech</h3>
             </div>
             <div class="btn"><button><a href="https://github.com/Harleythetech">Github</a></div>
-    </div>
-    <div class="Container"></div>
-    <div class="Container2"></div>
-    <div class="atribcon">
-        <h1 class="Content_name">- Github Projects -</h1>
-        <div class="scrollmenu">
-    <div class="Container3">
-    <h1 class="TText">Test Text</h1>
-    </div>
-    <div class="gap"></div>
-    <div class="Container4">
-        <h1 class="TText">Test Text</h1>
-    </div>
-    <div class="gap"></div>
-    <div class="Container5">
-        <h1 class="TText">Test Text</h1>
-    </div>
-    <div class="gap"></div>
-    <div class="Container6">
-        <h1 class="TText">Test Text</h1>
-     </div>
-     <div class="gap"></div>
-     <div class="Container7">
-        <h1 class="TText">Test Text</h1>
-      </div>
-    </div>
-    </div>
-    </div>
-    <footer class="Foot_cover">
-        <div class="footer_creds">
-        <h6> © Harleythetech 2022. All rights reserved.</h6>
-    </div>  
-    </footer>
-    </body>
+                </div>
+                <div class="Container"></div>
+                <div class="atribcon">
+                    <h1 class="Content_name">- Github Projects -</h1>
+                    <p class="talk">Recommended Projects That I Made</p>
+                    <div class="scrollmenu">
+                        <div id="cont">
+                            <h1 class="TText">Test Text</h1>
+                        </div>
+                        <div class="gap"></div>
+                        <div id="cont">
+                            <h1 class="TText">Test Text</h1>
+                        </div>
+                        <div class="gap"></div>
+                        <div id="cont">
+                            <h1 class="TText">Test Text</h1>
+                        </div>
+                        <div class="gap"></div>
+                        <div id="cont">
+                            <h1 class="TText">Test Text</h1>
+                        </div>
+                        <div class="gap"></div>
+                        <div id="cont">
+                            <h1 class="TText">Test Text</h1>
+                        </div>
+                    </div>
+                   </div>
+                   <div class="Contact">
+                         <h3 class="Contact_info">Get In Touch With me</h3>
+                         <p class="talk">Want to talk to me about something or any concerns about my code? talk here!</p>
+                         <div class="Container2"></div>
+                </div>
+                </div>
+                <footer class="Foot_cover">
+                    <div class="container_foot">
+                    <div class="footer_creds">
+                        <h6> © Harleythetech 2022. All rights reserved.</h6>
+                    </div>
+                    <div class="remark">
+                        <ul class="footer_barsocial">
+                            <i class="fa-solid fa-microchip fa-xl fa-inverse" id="chip"></i>
+                            <div class="nav_gap"></div>
+                            <i class="fa-solid fa-mug-saucer fa-xl fa-inverse" id="mug"></i>
+                        </ul>
+                    </div>
+                    <nav>
+                        <ul class="footer_barsocial">
+                            <a href="https://facebook.com/Harleythetech"><i class="fa-brands fa-facebook-square fa-xl fa-inverse" id="facebook"></i></a>
+                            <div class="nav_gap"></div>
+                            <a href="https://twitter.com/Harleythetech"><i class="fa-brands fa-twitter-square fa-xl fa-inverse" id="twitter"></i></a>
+                            <div class="nav_gap"></div>
+                            <a href="https://Github.com/Harleythetech"><i class="fa-brands fa-github-square fa-xl fa-inverse" id="Github"></i></a>
+                        </ul>
+                    </nav>
+                </div>
+                </footer>
+</body>
+
 </html>
