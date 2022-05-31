@@ -141,7 +141,7 @@
     
     @property --color2 {
         syntax: '<color>';
-        initial-value: rgba(253, 255, 150, 1);
+        initial-value: rgba(255, 255, 255, 1);
         inherits: false;
     }
     
@@ -253,7 +253,7 @@
         justify-content: center;
         align-items: center;
         width: 1470px;
-        height: 755px;
+        height: 740px;
         position: absolute;
         overflow: auto;
         white-space: nowrap;
@@ -309,7 +309,8 @@
         color: royalblue;
     }
     
-    .Soc_Follow {
+    .Soc_Follow,
+    .info_content2 {
         font-family: 'Lexend Deca', sans-serif;
         color: white;
     }
@@ -354,9 +355,50 @@
         list-style: none;
     }
     
-    .talk {
+    .talk,
+    .info_header,
+    .info_content,
+    .username,
+    .mini_info {
         font-family: 'Lexend Deca', sans-serif;
         color: white;
-        font-size: 20px;
+    }
+    
+    .talk {
         text-align: center;
+        font-size: 20px;
+    }
+    
+    .info_header {
+        font-size: 30px;
+        padding: 10px 2%;
+    }
+    
+    .info_content {
+        font-size: 20px;
+        padding: 1px 2%;
+    }
+    
+    .Icons {
+        --fa-display: inline-block;
+        font-size: 20px;
+        padding: 10px 2%;
+    }
+    
+    .notes {
+        list-style: none;
+        font-size: 20px;
+        padding: 10px 2.5%;
+    }
+    
+    .username {
+        display: inline-block;
+        padding: -1px 25%;
+        font-size: 20px;
+    }
+    
+    #cake {
+        display: inline-block;
+        padding: -1px 30%;
+        font-size: 20px;
     }
