@@ -121,10 +121,12 @@
     }
     
     .c {
+        border-radius: 10px;
+        top: 0;
         width: 1470px;
-        height: 700px;
+        height: 200px;
         position: absolute;
-        top: 200%;
+        top: 205%;
         left: 5%;
     }
     
@@ -290,6 +292,7 @@
     
     .scrollmenu {
         display: inline-block;
+        top: 1;
         justify-content: center;
         align-items: center;
         width: 1470px;
