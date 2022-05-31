@@ -1,5 +1,9 @@
     @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&display=swap');
+    html {
+        scroll-behavior: smooth;
+    }
+    
     body {
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -10,6 +14,13 @@
         box-sizing: border-box;
         margin: 0;
         padding: 0;
+    }
+    
+    .offset::before {
+        display: block;
+        content: "";
+        height: 2rem;
+        margin-top: -2rem;
     }
     
     .shite,
@@ -24,8 +35,7 @@
     }
     
     header {
-        background: transparent;
-        position: relative;
+        background: #282828;
         height: 60px;
         box-shadow: #2c2f33;
         display: flex;
@@ -33,6 +43,9 @@
         align-items: center;
         padding: 10px 2%;
         transition: all 0.3s ease 0s;
+        position: sticky;
+        top: 0;
+        z-index: 999;
     }
     
     header:hover {
@@ -80,12 +93,24 @@
     }
     
     .backgroundcap {
+        position: static;
         background-color: black;
         max-width: auto;
         height: 300vh;
         opacity: 0.5;
         display: flex;
         flex: 1;
+    }
+    
+    .intro {
+        position: absolute;
+        top: 1%;
+    }
+    
+    .c {
+        position: absolute;
+        top: 210%;
+        left: 5%;
     }
     
     #creator__image {
@@ -207,7 +232,7 @@
     .Container2 {
         background-color: #2c2f33;
         width: 1470px;
-        height: 700px;
+        height: 300px;
         position: absolute;
         top: 10%;
         border-radius: 10px;
@@ -448,4 +473,28 @@
     
     .btn2 {
         padding: 0px 23%;
+    }
+    
+    #Contact_ico {
+        font-size: 100px;
+        padding: 0px 8.5%;
+    }
+    
+    .gap3 {
+        width: 05px;
+        background: none;
+        height: 160px;
+        display: inline-block;
+    }
+    
+    .social {
+        font-size: 20px;
+        padding: 0px 4%;
+    }
+    
+    .gap4 {
+        width: 100px;
+        background: none;
+        height: 70px;
+        display: inline-block;
     }

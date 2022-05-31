@@ -15,10 +15,16 @@
     <script src="Resources/script-pc-detection/simple-notify.min.js"></script>
     <script src="Resources/script-pc-detection/jquery-3.6.0.js"></script>
     <div class="PC" id="pc" style="display: none;"></div>
+    <script src="script.js"></script>
+
     </header>
     <!--START OF NAV-BAR-->
 
-    <body onload="ConsoleCheck()">
+    <body class="top-bar" onload="ConsoleCheck()">
+    </body>
+    <!--START OF HOME-->
+
+    <body style="background-image: url('Resources/Wave.png')">
         <header>
             <nav>
                 <a href="index.html">
@@ -30,9 +36,9 @@
             </nav>
             <nav>
                 <ul class="nav_bar">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#intro">Home</a></li>
+                    <li><a href="#Github_Projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
             <nav>
@@ -47,11 +53,8 @@
                 </ul>
             </nav>
         </header>
-    </body>
-    <!--START OF HOME-->
-
-    <body style="background-image: url('Resources/Wave.png')">
         <div class="backgroundcap"></div>
+        <div class="intro offset" id="intro"></div>
         <div id="creator__image">
             <div>
                 <div class="sat"><i class="fa-solid fa-satellite fa-2xl fa-inverse" class="sat"></i></div>
@@ -66,7 +69,7 @@
                 </ul>
             </div>
         </div>
-        <div class="Container">
+        <div class="Container offset">
             <div class="Info">
                 <h1 class="info_header">About Me:</h1>
                 <p class="info_content">Hello! My name is Harley, and I'm a Filipino Student Developer. If I'm Not Coding I usually do other hobbies. I'm Studying remotely while creating projects that could improve my abilities as a programmer.
@@ -94,10 +97,11 @@
                     <Li class="info_content2">🧊 Fun Fact: I learned Coding way back from 2020 (not too long ago)</Li>
                 </ul>
             </div>
-            <!--END OF HOME-->
         </div>
-        <div class="atribcon">
-            <h1 class="Content_name">- Github Projects -</h1>
+        <!--END OF HOME-->
+        </div>
+        <div class="atribcon" id="Github_Projects">
+            <h1 class="Content_name offset">- Github Projects -</h1>
             <p class="talk">Recommended Projects That I Made</p>
             <div class="scrollmenu">
                 <div id="cont">
@@ -141,6 +145,7 @@
                             <Li class="info_content2">🟡Language: Java </li>
                             <Li class="info_content2">🟡Date Of Creation: May, 28 2022</li>
                             <Li class="info_content2">🟡Purpose: To Show Status on Discord </li>
+                            <Li class="info_content2">✂️Forked From: BlobbyDev </li>
                         </ul>
                         <div class="btn2" id="btn3"><button class="read"><a href="https://github.com/Harleythetech/Discord-Rich-Presence">Open In Github</a></button></div>
                     </ul>
@@ -173,6 +178,7 @@
                             <Li class="info_content2">🟡Language: HTML, CSS, JS </li>
                             <Li class="info_content2">🟡Date Of Creation: May, 28 2022</li>
                             <Li class="info_content2">🟡Purpose: A Portfolio for Devs </li>
+                            <Li class="info_content2">⚠️Needs Improvement</li>
 
                         </ul>
                         <div class="btn2" id="btn5"><button class="read"><a href="https://github.com/Harleythetech/Developer-Info">Open In Github</a></button></div>
@@ -180,10 +186,33 @@
                 </div>
             </div>
         </div>
-        <div class="Contact">
-            <h3 class="Contact_info">- Get In Touch With me -</h3>
-            <p class="talk">Want to talk to me about something or any concerns about my code? talk here!</p>
-            <div class="Container2"></div>
+        <div class="c offset" id="contact">
+            <div class="Contact">
+                <h3 class="Contact_info">- Have Some Questions? -</h3>
+                <p class="talk">Contact me on the following platforms</p>
+                <div class="Container2">
+                    <ul class="Icons2">
+                        <i class="fa-solid fa-envelope fa-2xl fa-inverse" id="Contact_ico"></i>
+                        <div class="gap3"></div>
+                        <i class="fa-brands fa-facebook-messenger fa-2xl fa-inverse" id="Contact_ico"></i>
+                        <div class="gap3"></div>
+                        <i class="fa-brands fa-twitter fa-2xl fa-inverse" id="Contact_ico"></i>
+                        <div class="gap3"></div>
+                        <i class="fa-brands fa-discord fa-2xl fa-inverse" id="Contact_ico"></i>
+                        </li>
+                    </ul>
+                    <ul class="Icons2">
+                        <a class="social" href="mailto:ftauth@gmail.com">ftauth@gmail.com</a>
+                        <div class="gap4"></div>
+                        <a class="social" href="https://m.me/harleythetech" method="get" enctype="text/plain">Vincent Jovellano</a>
+                        <div class="gap4"></div>
+                        <a class="social" href="https://twitter.com/Harleythetech">Harleythetech</a>
+                        <div class="gap4"></div>
+                        <a class="social" href="#">ハーレイ#3380</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
         </div>
         <footer class="Foot_cover">
