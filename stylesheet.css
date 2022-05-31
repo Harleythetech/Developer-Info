@@ -5,9 +5,22 @@
     }
     
     body {
+        background-image: url('Resources/Wave.png');
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
+    }
+    
+    body::-webkit-scrollbar {
+        width: 20px;
+    }
+    
+    body::-webkit-scrollbar-track {
+        background-color: rgb(39, 39, 39);
+    }
+    
+    body::-webkit-scrollbar-thumb {
+        background-color: #ffe27f;
     }
     
     * {
@@ -96,7 +109,7 @@
         position: static;
         background-color: black;
         max-width: auto;
-        height: 300vh;
+        height: 275vh;
         opacity: 0.5;
         display: flex;
         flex: 1;
@@ -108,8 +121,10 @@
     }
     
     .c {
+        width: 1470px;
+        height: 700px;
         position: absolute;
-        top: 210%;
+        top: 200%;
         left: 5%;
     }
     
@@ -218,8 +233,8 @@
         width: 1470px;
         height: 700px;
         position: absolute;
-        top: 205%;
-        left: 5%;
+        top: 10%;
+        left: 0%;
     }
     
     .Contact_info {
@@ -296,18 +311,6 @@
     .scrollmenu::-webkit-scrollbar-thumb {
         background-color: #ffe27f;
         border-radius: 10px;
-    }
-    
-    body::-webkit-scrollbar {
-        width: 20px;
-    }
-    
-    body::-webkit-scrollbar-track {
-        background-color: rgb(39, 39, 39);
-    }
-    
-    body::-webkit-scrollbar-thumb {
-        background-color: #ffe27f;
     }
     
     .TText {
