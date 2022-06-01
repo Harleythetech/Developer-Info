@@ -1,5 +1,7 @@
 # Developer-Info
-#Version 2.1.nr
+Version 2.2.nr
+
+Display Responsive: NO (Work In Progress)
 
 Description: A website built from scratch consisting of HTML, CSS, and JS
 # Contents:
