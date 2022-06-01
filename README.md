@@ -1,6 +1,7 @@
 # Developer-Info
 #Version 2.1.nr
-A website built from scratch consisting of HTML, CSS, and JS
+
+Description: A website built from scratch consisting of HTML, CSS, and JS
 # Contents:
 OS Detection
 
