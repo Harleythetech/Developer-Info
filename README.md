@@ -1,5 +1,5 @@
 # Developer-Info
-Version 2.4.nr
+Version 2.5.nr
 
 Display Responsive: NO (Work In Progress)
 
