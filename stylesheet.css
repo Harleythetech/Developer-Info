@@ -56,8 +56,10 @@
         align-items: center;
         padding: 10px 2%;
         transition: all 0.3s ease 0s;
-        position: sticky;
+        position: fixed;
         top: 0;
+        left: 0;
+        width: 100%
         z-index: 999;
     }
     
